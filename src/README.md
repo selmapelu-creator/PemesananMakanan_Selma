@@ -1,13 +1,22 @@
 # 🍽️ Aplikasi Pemesanan Makanan
 
-Program sederhana berbasis Java untuk menghitung total harga pesanan makanan di restoran, termasuk pajak 10%.
+Program sederhana berbasis Java untuk menghitung total harga pesanan makanan di restoran, termasuk pajak 10% dan diskon 10% bila total di atas Rp50.000.
 
 ---
 
 ## 🧩 Fitur
-- Input makanan, harga, dan jumlah pesanan (langsung di kode)
-- Perhitungan otomatis total harga dengan pajak 10%
+- Hitung total harga pesanan otomatis
+- Tambah pajak 10%
+- Diskon 10% jika total melebihi Rp50.000
 - Menampilkan hasil nota pesanan di console
 
+---
 
+## ⚙️ Cara Menjalankan
+1. Buka proyek di **IntelliJ IDEA**
+2. Jalankan file `Main.java`
+3. Lihat hasil output di console
 
+---
+
+## 🧾 Contoh Output

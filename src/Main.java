@@ -1,21 +1,24 @@
-/**
- * Kelas Main berfungsi sebagai titik awal (entry point)
- * untuk menjalankan program pemesanan makanan.
- * Program ini membuat objek FoodOrder dan menghitung total harga pesanan.
- *
- * @author Selma
- * @version 1.0
- */
-public class Main {
-    /**
-     * Method utama untuk menjalankan program.
-     * @param args argumen baris perintah (tidak digunakan di sini)
-     */
-    public static void main(String[] args) {
-        // Membuat pesanan baru
-        FoodOrder order = new FoodOrder("Nasi Goreng", 15000, 6);
+import java.util.Scanner;
 
-        // Menghitung total harga pesanan
+public class Main {
+    public static void main(String[] args) {
+        // Scanner untuk input dari user
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("=== Selma's Resto 🍽️ ===");
+        System.out.print("Masukkan nama makanan: ");
+        String foodName = sc.nextLine();
+
+        System.out.print("Masukkan harga satuan: ");
+        double price = sc.nextDouble();
+
+        System.out.print("Masukkan jumlah pesanan: ");
+        int quantity = sc.nextInt();
+
+        System.out.println("\n=== Ringkasan Pesanan ===");
+        FoodOrder order = new FoodOrder(foodName, price, quantity);
         order.calculateTotal();
+
+        sc.close(); // Tutup scanner
     }
 }

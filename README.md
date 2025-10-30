@@ -1,22 +1,18 @@
-# 🍽️ Aplikasi Pemesanan Makanan
+# 🍽️ Program Pemesanan Makanan — Tugas 2 PROGLAN
 
-Program sederhana berbasis Java untuk menghitung total harga pesanan makanan di restoran, termasuk pajak 10% dan diskon 10% bila total di atas Rp50.000.
+## 📘 Deskripsi
+Program ini merupakan implementasi sederhana sistem **Pemesanan Makanan** menggunakan bahasa **Java**.  
+Aplikasi ini menghitung total harga pesanan berdasarkan **harga satuan** dan **jumlah pesanan**,  
+serta menerapkan **diskon 10%** apabila total harga melebihi **Rp50.000**.
 
----
-
-## 🧩 Fitur
-- Hitung total harga pesanan otomatis
-- Tambah pajak 10%
-- Diskon 10% jika total melebihi Rp50.000
-- Menampilkan hasil nota pesanan di console
+Program dibuat sebagai bagian dari **Modul 3 - Modern Programming Environment & Documentation Style**  
+dalam mata kuliah **Pemrograman Lanjut (PROGLAN)**.
 
 ---
 
-## ⚙️ Cara Menjalankan
-1. Buka proyek di **IntelliJ IDEA**
-2. Jalankan file `Main.java`
-3. Lihat hasil output di console
+## 🧩 Fitur Utama
+✅ Menghitung total harga otomatis berdasarkan input awal  
+✅ Menerapkan **diskon 10%** jika total harga lebih dari Rp50.000  
+✅ Menampilkan hasil pesanan dengan format rapi di console  
+✅ Menggunakan **konsep OOP (Object-Oriented Programming)**: class, atribut, dan method
 
----
-
-## 🧾 Contoh Output

@@ -1,24 +1,16 @@
-import java.util.Scanner;
-
+/**
+ * Kelas Main menjalankan program utama Pemesanan Makanan.
+ * Program ini membuat objek FoodOrder dan menghitung total pesanan dengan diskon.
+ *
+ * @author Selma
+ * @version 1.0
+ */
 public class Main {
     public static void main(String[] args) {
-        // Scanner untuk input dari user
-        Scanner sc = new Scanner(System.in);
+        // Membuat pesanan baru (contoh)
+        FoodOrder order = new FoodOrder("Nasi Goreng", 15000, 6);
 
-        System.out.println("=== Selma's Resto 🍽️ ===");
-        System.out.print("Masukkan nama makanan: ");
-        String foodName = sc.nextLine();
-
-        System.out.print("Masukkan harga satuan: ");
-        double price = sc.nextDouble();
-
-        System.out.print("Masukkan jumlah pesanan: ");
-        int quantity = sc.nextInt();
-
-        System.out.println("\n=== Ringkasan Pesanan ===");
-        FoodOrder order = new FoodOrder(foodName, price, quantity);
+        // Menghitung total harga pesanan
         order.calculateTotal();
-
-        sc.close(); // Tutup scanner
     }
 }

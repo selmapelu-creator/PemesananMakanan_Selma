@@ -10,6 +10,7 @@ public class FoodOrder {
     private String foodName;
     private double price;
     private int quantity;
+    /*private static  final double = TAX = 0.1; //
 
     /**
      * Konstruktor untuk membuat objek FoodOrder baru.
@@ -29,6 +30,9 @@ public class FoodOrder {
      */
     public void calculateTotal() {
         double total = price * quantity;
+        /*total += total * TAX;//
+        }
+         */
 
         // Fitur tambahan: diskon 10% kalau total di atas Rp50.000
         if (total > 50000) {
